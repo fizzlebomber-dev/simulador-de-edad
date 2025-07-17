@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: white;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 15px;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#ageDate {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.calcular {
+  background-color: #007BFF;
+  color: white;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calcular:hover {
+  background-color: #0056b3;
+}
+
+#resultado {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #008000;
+}
+
+img {
+  width: 200px;
+}
